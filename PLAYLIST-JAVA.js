@@ -21,6 +21,7 @@ $("#clear_button").click(function(){
   $("#nobullets").empty("");
 })
 
+
 ///submit button - post request --FIX ME!--
 
 // $("submit_button").click(function) {
