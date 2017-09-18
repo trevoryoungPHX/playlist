@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PLAYLIST</title>
+    <script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="PLAYLIST-JAVA.js" defer></script>
+<link rel="stylesheet" href="PLAYLIST-STYLE.css">
+  </head>
+  <body onload="getAlbums()">
+    <header class="playlistheader"><p id = 'headertext'>click an album to add its tracks to the bin</p></header>
+    <br>
+      <div class="scrollingAlbums"></div>
+      <br>
+      <div class="bin">
+        <ul id = 'nobullets'>
+        </ul>
+      </div>
+      <br>
+      <br>
+      <div class="playlistbuttons">
+        <button id="clear_button" >clear tracks</button>
+        <button id="submit_button" >submit bin</button>
+      </div>
+    <footer class="playlistfooter"><p>&copy; 2017 trevor young</p></footer>
+  </body>
+</html>

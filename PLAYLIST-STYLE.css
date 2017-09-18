@@ -1,0 +1,93 @@
+.playlistheader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #9b9b8c;
+  color: white;
+  font-family: Avenir Next LT Pro Regular;
+  padding-left: 70px;
+  font-size: 28px;
+
+}
+
+#headertext {
+  padding-top: 35px;
+  font-weight: lighter;
+
+}
+
+.scrollingAlbums {
+padding-top:90px;
+overflow-x: scroll;
+}
+
+img {
+  width: 8%;
+  position: relative;
+  display: inline-block;
+  object-fit: scale-down;
+  padding-left: 60px;
+}
+
+.bin {
+  background-color: #EEEEEE;
+  border: 3px solid black;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 200px;
+  font-family: Avenir Next LT Pro Regular;
+  font-size: 24px;
+  overflow-y: scroll
+}
+
+.playlistfooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #686859;
+  color: white;
+  font-family: Avenir Next LT Pro Regular;
+  font-size: 24px;
+  padding-left: 100px;
+}
+
+.playlistbuttons {
+  margin-left: 60px;
+}
+
+#submit_button{
+  background-color:#353526;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  color:#ffffff;
+  font-family: Avenir Next LT Pro Regular;
+  font-size:20px;
+  padding:8px 38px;
+  margin: auto;
+  align-items: left;
+}
+
+#clear_button{
+  background-color:#353526;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  color:#ffffff;
+  font-family: Avenir Next LT Pro Regular;
+  font-size:20px;
+  padding:8px 38px;
+  margin: auto;
+  align-items: left;
+}
+
+#nobullets {
+  list-style-type: none;
+}
+
+@font-face {
+    font-family: Avenir Next LT Pro Regular;
+    src: url(/Users/trevoryoung/Documents/Galvanize/playlist/fonts/AvenirNextLTPro-Regular.otf);
+}
